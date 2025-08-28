@@ -1,5 +1,6 @@
 package org.principal;
 
+import org.model.Categoria;
 import org.model.Marca;
 import org.model.Modelo;
 
@@ -10,6 +11,7 @@ public class Principal {
         Modelo modelo1 = new Modelo(1,"Ford RAM","luxo",new Date(),10);
         Modelo modelo2 = new Modelo();
         Marca marca = new Marca();
+        Categoria categoria = new Categoria();
 
         marca.setId(1);
         marca.setNome("FORD");
