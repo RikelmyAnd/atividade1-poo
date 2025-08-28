@@ -5,10 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0120f643-5d94-41a5-bfc3-34d5352368e1" name="Changes" comment="Projeto Inicial">
-      <change afterPath="$PROJECT_DIR$/src/org/model/Categoria.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/model/Veiculo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/model/Cliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/model/Contato.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/model/ContratoLocacao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/model/Endereco.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/model/Locacao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/model/Manutencao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/model/Pagamento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/model/Usuario.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/principal/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/principal/Principal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/model/Categoria.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/model/Categoria.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/model/Veiculo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/model/Veiculo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,12 +32,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;danielcs-prof&quot;
-  }
-}</component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {}
+}]]></component>
   <component name="GithubPullRequestsUISettings"><![CDATA[{
   "selectedUrlAndAccountId": {
     "url": "https://github.com/RikelmyAnd/atividade1-poo.git",
@@ -52,9 +56,11 @@
   "keyToString": {
     "Application.Principal.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true"
+    "kotlin-language-version-configured": "true",
+    "settings.editor.selected.configurable": "copyright"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />

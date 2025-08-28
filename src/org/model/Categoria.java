@@ -47,4 +47,6 @@ public class Categoria {
     public void setModelos(Modelo modelos) {
         this.modelos = modelos;
     }
+
+
 }
