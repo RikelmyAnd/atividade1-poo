@@ -5,16 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0120f643-5d94-41a5-bfc3-34d5352368e1" name="Changes" comment="Projeto Inicial">
-      <change afterPath="$PROJECT_DIR$/src/org/model/Cliente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/model/Contato.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/model/ContratoLocacao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/model/Endereco.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/model/Locacao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/model/Manutencao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/model/Pagamento.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/model/Usuario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/model/STATUSLOCAÇÃO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/model/STATUSVEICULO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/model/TIPOPAGAMENTO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/model/Categoria.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/model/Categoria.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/model/ContratoLocacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/model/ContratoLocacao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/model/Pagamento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/model/Pagamento.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/org/model/Veiculo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/model/Veiculo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -26,6 +22,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>

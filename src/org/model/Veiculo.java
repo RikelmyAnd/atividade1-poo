@@ -2,9 +2,7 @@ package org.model;
 
 public class Veiculo {
     private long id;
-    private enum status{
-        DISPONIVEL, INDISPONIVEL
-    }
+    private STATUSVEICULO status;
     private int km;
     private String placa;
     private String chassi;
@@ -15,8 +13,9 @@ public class Veiculo {
     public Veiculo() {
     }
 
-    public Veiculo(long id, int km, String placa, String chassi, String renavam, String cor, Modelo modelo) {
+    public Veiculo(long id, STATUSVEICULO status, int km, String placa, String chassi, String renavam, String cor, Modelo modelo) {
         this.id = id;
+        this.status = status;
         this.km = km;
         this.placa = placa;
         this.chassi = chassi;
@@ -31,6 +30,14 @@ public class Veiculo {
 
     public void setId(long id) {
         this.id = id;
+    }
+
+    public STATUSVEICULO getStatus() {
+        return status;
+    }
+
+    public void setStatus(STATUSVEICULO status) {
+        this.status = status;
     }
 
     public int getKm() {
@@ -80,6 +87,4 @@ public class Veiculo {
     public void setModelo(Modelo modelo) {
         this.modelo = modelo;
     }
-
-
 }

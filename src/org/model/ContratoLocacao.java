@@ -7,9 +7,7 @@ public class ContratoLocacao {
     private long id;
     private Date dataContrato;
     private float valorLocacao;
-    private enum status {
-        ATIVO, INATIVO
-    }
+    private STATUSLOCAÇÃO status;
     private List listlocacao;
     private float valorTotal;
     private Funcionario funcionario;
@@ -18,10 +16,11 @@ public class ContratoLocacao {
     public ContratoLocacao() {
     }
 
-    public ContratoLocacao(long id, Date dataContrato, float valorLocacao, List listlocacao, float valorTotal, Funcionario funcionario, Cliente cliente) {
+    public ContratoLocacao(long id, Date dataContrato, float valorLocacao, STATUSLOCAÇÃO status, List listlocacao, float valorTotal, Funcionario funcionario, Cliente cliente) {
         this.id = id;
         this.dataContrato = dataContrato;
         this.valorLocacao = valorLocacao;
+        this.status = status;
         this.listlocacao = listlocacao;
         this.valorTotal = valorTotal;
         this.funcionario = funcionario;
@@ -50,6 +49,14 @@ public class ContratoLocacao {
 
     public void setValorLocacao(float valorLocacao) {
         this.valorLocacao = valorLocacao;
+    }
+
+    public STATUSLOCAÇÃO getStatus() {
+        return status;
+    }
+
+    public void setStatus(STATUSLOCAÇÃO status) {
+        this.status = status;
     }
 
     public List getListlocacao() {
